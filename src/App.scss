@@ -1,0 +1,32 @@
+body {
+  font-size: 14px;
+}
+
+form {
+  input {
+    padding: .7em 1.5em;
+  }
+  select, option {
+    padding: .7em 2em;
+  }
+}
+
+h1 {
+  margin: 2em 0 .5em 0;
+}
+
+button {
+  margin: 1.5em 0;
+}
+
+.bar-container {
+  box-sizing: border-box;
+  background-color: #425569;
+  height: .5em;
+  .bar-progress {
+    height: .5em;
+    background: #FAFAFA;
+    transition: .5s;
+  }
+}
+
